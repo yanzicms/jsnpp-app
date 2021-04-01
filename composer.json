@@ -11,6 +11,12 @@
         "issues": "https://github.com/yanzicms/jsnpp-app/issues",
         "source": "https://github.com/yanzicms/jsnpp-app"
     },
+	"authors": [
+        {
+            "name": "Alfred Johnson",
+            "email": "804644245@qq.com"
+        }
+    ],
     "require": {
         "php": ">=5.6.0",
         "ext-mbstring": "*",
