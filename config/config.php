@@ -59,22 +59,22 @@ return [
      * 分页输出的HTML是否包含ul
      */
     'containsul' => true,
-    /**
+	/**
      * 分页输出只有一页是否显示分页
      */
     'showone' => false,
     /**
      * 验证码宽度
      */
-    'imagewidth' => 120,
+    'imagewidth' => 150,
     /**
      * 验证码高度
      */
-    'imageheight' => 38,
+    'imageheight' => 50,
     /**
      * 字体大小
      */
-    'fontsize' => 20,
+    'fontsize' => 25,
     /**
      * 验证码数量
      */
@@ -90,8 +90,8 @@ return [
     /**
      * 验证码是否只使用一次，true，false
      */
-    'useonce' => true,
-    /**
+    'useonce' => false,
+	/**
      * 访问失败时显示什么，exception, 404
      */
     'missed' => 'exception',
@@ -99,7 +99,7 @@ return [
      * 自定义配置文件
      */
     'customize' => ['customize'],
-    /**
+	/**
      * 路由配置
      */
     'mainroute' => 'archives',
