@@ -1,0 +1,34 @@
+{
+    "name": "yanzicms/jsnpp-app",
+    "type": "project",
+    "description": "A full-chain PHP framework",
+    "keywords": [
+        "framework",
+        "jsnpp"
+    ],
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/yanzicms/jsnpp-app/issues",
+        "source": "https://github.com/yanzicms/jsnpp-app"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "yanzicms/jsnpp": "^2.0"
+    },
+    "require-dev": {
+        "yanzicms/jsnpp": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    }
+}
