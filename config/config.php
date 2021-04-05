@@ -96,6 +96,10 @@ return [
      */
     'missed' => 'exception',
     /**
+     * 插件目录
+     */
+    'handle' => 'plugins',
+    /**
      * 自定义配置文件
      */
     'customize' => ['customize'],
