@@ -106,6 +106,7 @@ return [
 	/**
      * 路由配置
      */
+    'controller' => ['index'],
     'mainroute' => 'archives',
     'twosegment' => ['category'],
 ];
