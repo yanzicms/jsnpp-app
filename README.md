@@ -22,7 +22,7 @@ Please visit [Jsnpp website](http://www.jsnpp.com) for comprehensive documentati
 
 Jsnpp is installed through Composer, you can use the following command to get the Jsnpp source code: 
 
-> composer create-project yanzicms/jsnpp1 jsnpp
+> composer create-project yanzicms/jsnpp-app jsnpp-app
 
 ## License ##
 
