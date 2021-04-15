@@ -22,10 +22,10 @@
         "ext-mbstring": "*",
         "ext-gd": "*",
         "ext-json": "*",
-        "yanzicms/jsnpp": "^2.0"
+        "yanzicms/jsnpp": "^3.0"
     },
     "require-dev": {
-        "yanzicms/jsnpp": "^2.0"
+        "yanzicms/jsnpp": "^3.0"
     },
     "autoload": {
         "psr-4": {
