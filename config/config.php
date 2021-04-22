@@ -19,6 +19,10 @@ return [
      * 语言zh-cn，en-us
      */
     'language' => 'zh-cn',
+	/**
+     * 是否开启rewrite
+     */
+    'rewrite' => false,
     /**
      * 模板标签开始符
      */
