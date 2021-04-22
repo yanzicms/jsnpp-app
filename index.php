@@ -8,6 +8,6 @@
  */
 namespace jsnpp;
 
-require __DIR__ . '/vendor/autoload.php';
-
-(new Application(__DIR__))->jsnpp->startup();
+$jsnpp_dir = __DIR__;
+require $jsnpp_dir . '/vendor/autoload.php';
+(new Application($jsnpp_dir))->jsnpp->startup();
