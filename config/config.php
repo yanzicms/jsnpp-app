@@ -113,4 +113,5 @@ return [
     'controller' => ['index'],
     'mainroute' => 'archives',
     'twosegment' => ['category'],
+	'alone' => [],
 ];

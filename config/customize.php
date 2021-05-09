@@ -6,4 +6,5 @@
  * Licensed: Apache-2.0
  * GitHub: https://github.com/yanzicms/jsnpp
  */
-return [];
+return [
+];
