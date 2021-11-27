@@ -99,6 +99,10 @@ return [
      * 访问失败时显示什么，exception, 404
      */
     'missed' => 'exception',
+	/**
+     * 默认控制器
+     */
+    'defaultcontroller' => 'index',
     /**
      * 插件目录
      */
